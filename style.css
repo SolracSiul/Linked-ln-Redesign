@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    background-color: aqua;
+}
+header div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 80px;
+    background-color: red;
+}
+header div:first-child img{
+    height: 46px;
+    width: 46px;
+}
