@@ -8,126 +8,18 @@
     max-width: 1200px;
     margin: auto;
 }
-/* começo do header */
 header{
-    /* background-color: red; */
-    height: 60px;
-    display: flex;
+    background-color: aqua;
 }
-.parte1{
+header div:first-child{
     display: flex;
-    flex-direction: row;
-    /* background-color: blue; */
-    height: 60px;
-    width: 220px;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
-}
-.parte1 img{
-    width: 36px;
-    height: 36px;
-}
-.parte2{
-    /* background-color: yellow; */
-    width: 660px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-    margin-right: 10px;
-}
-.parte2 ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.parte2 li{
-    margin: 2px;
-    height: 40px;
-    width: 80px;
-    text-align: center;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-}
-.parte2 i{
-    font-size: 16px;
-    color: black;
-}
-.parte3{
-    /* background-color: aqua; */
-    width: 590px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-}
-.parte3 input[type=text]{
-    margin-top: 3px;
-    margin-left: 25px;
-    height: 20px;
-    width: 100px;
-    background-color: rgba(0, 0, 0, 0.0);
-    border-radius: 1px;
-    outline: none;
-    border: 0 none;
-}
-.parte3 i{
-    position: absolute;
-    margin-left: 3px;
-    color:#0275B1;
-}
-.parte4{
-    /* background-color: antiquewhite; */
-    width: 460px;
-    display: flex;
-}
-.parte4 img{
-    height: 46px;
-    margin-top: 8px;
-    margin-left: 5px;
-
-}
-.parte4 div{
-    margin-left: 10px;
-}
-.parte4 div div{
-    display: flex;
-    margin-top: 10px;
-}
-.parte4 div div i{
-    color:green;
-}
-.parte4 div p:last-child{
-    color:rgb(93, 240, 93);
-}
-.parte5{
-    /* background-color: rgb(177, 115, 34); */
-    width: 90px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-/* fim do header */
-main {
-    display: grid;
-    grid-template-columns: 850px 290px;
-    max-width: 1200px;
-    margin: auto;
-    gap: 10px;
-}
-main section {
-    background-color: #8833b2;
-    height: 400px;
-}
-.card {
-    background-color: rgb(174, 84, 84);
-    height: 350px;
-    margin-top: 20px;
-}
-footer{
-    background-color: blue;
+    width: 130px;
     height: 80px;
+    background-color: red;
+}
+header div:first-child img{
+    height: 46px;
+    width: 46px;
 }
