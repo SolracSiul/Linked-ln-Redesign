@@ -1,14 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{
-    max-width: 1200px;
-    margin: auto;
-}
-/* começo do header */
+/* header  */
 header{
     /* background-color: red; */
     height: 60px;
@@ -110,24 +100,6 @@ header{
     align-items: center;
     justify-content: center;
 }
-/* fim do header */
-main {
-    display: grid;
-    grid-template-columns: 850px 290px;
-    max-width: 1200px;
-    margin: auto;
-    gap: 10px;
-}
-main section {
-    background-color: #8833b2;
-    height: 400px;
-}
-.card {
-    background-color: rgb(174, 84, 84);
-    height: 350px;
-    margin-top: 20px;
-}
-footer{
-    background-color: blue;
-    height: 80px;
+body{
+    background-color: #F7F9FB;
 }
