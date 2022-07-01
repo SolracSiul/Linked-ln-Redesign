@@ -46,7 +46,7 @@ div section article p {
 }
 
 div section article:first-child {
-    height: 370px;
+    height: 360px;
 }
 
 div section article div:first-child img {
@@ -88,9 +88,28 @@ aside {
     padding-left: 20px;
 }
 
+div aside article {
+    width: 100%;
+    height: 360px;
+}
+
+div aside article:first-child div:first-child div {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #CCC;
+}
+
+div aside article:first-child div:first-child div p {
+    font-size: 10px;
+    margin-top: 20px;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
 .card {
     background-color: #FFF;
-    /* padding: 25px; */
     margin-top: 20px;
     border-radius: 5px;
 }
